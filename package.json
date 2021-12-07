@@ -19,6 +19,7 @@
     "browserify-zlib": "^0.2.0",
     "stream-browserify": "^3.0.0",
     "typescript": "^4.4.4",
+    "unocss": "^0.15.5",
     "unplugin-auto-import": "^0.5.1",
     "vite": "^2.7.0",
     "vue-tsc": "^0.28.10"
