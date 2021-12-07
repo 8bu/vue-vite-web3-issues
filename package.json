@@ -1,0 +1,26 @@
+{
+  "name": "vite-web3js",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "util": "^0.12.4",
+    "vue": "^3.2.23",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "browserify-zlib": "^0.2.0",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.4.4",
+    "unplugin-auto-import": "^0.5.1",
+    "vite": "^2.7.0",
+    "vue-tsc": "^0.28.10"
+  }
+}
