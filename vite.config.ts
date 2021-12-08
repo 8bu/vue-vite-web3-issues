@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import Unocss from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -28,6 +29,7 @@ export default defineConfig({
       stream: "stream-browserify",
       zlib: "browserify-zlib",
       util: "util",
+      web3: path.resolve(__dirname, "./node_modules/web3/dist/web3.min.js"),
     },
   },
 });
